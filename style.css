@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+img.adjust{
+    width: 20px;
+    position: absolute;
+    right: 5px;
+}
+
+div.header{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 250px;
+    
+}
+
+div.search{
+    position: relative;
+    margin: 10px;
+    padding: 5px 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+div.search input{
+    border: none;
+    width: 230px;
+}
+
+div.search input:focus{
+    outline: none;
+}
+
+
+
+div.cart .cart-box{
+    background-color: rgb(64, 138, 234);
+    color: white;
+    padding: 8px 10px;
+    margin: 10px;
+    font-size: small;
+    border-radius: 20px;
+}
+
+div.cart .checkbox{
+    padding: 5px 10px;
+    margin: 10px;
+    box-shadow: 0 0 5px grey;
+}
