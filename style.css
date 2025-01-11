@@ -131,6 +131,7 @@ table{
 }
 td{
     text-align: center;
+    
 }
 
 
@@ -141,7 +142,11 @@ td{
     color: white;
     background-color: #167F92;
     border: none;
-    
+    font-weight: bold;
+}
+
+.tr1 td{
+    vertical-align: super;
 }
 
 .td1{
@@ -152,11 +157,11 @@ td{
 }
 
 .td2{
-    width: 11%;
+    width: 8%;
 }
 
 .td3{
-    width: 11%;
+    width: 9%;
 }
 
 .td4{
@@ -198,10 +203,96 @@ td{
 
 /* Table row 2 */
 
-{
-    background-color: rgb(248, 79, 158);
+.tr2 td{
+    padding: 10px 0;
+    color: #167F92;
 }
-
 .marked:checked {
     background-color: #167F92;
   }
+
+  .tr2 .td02 img{
+    width: 40px;
+    height: 40px;
+  }
+
+.tr2 .td03{
+    font-weight: bold;
+}
+
+.tr2 .td06{
+    font-weight: bold;
+}
+
+.tr2 .td05,  .tr2 .td04{
+    color: gray;
+  }
+
+
+.tr2 .td07 span{
+    background-color: #167F92;
+    color: white;
+    border-radius: 10px;
+    width: 65px;
+    /* padding: 1.5px 5px; */
+    display: inline-block;
+    height: 21px;
+}
+.tr2 .td07 span input{
+    width: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 0 1px 0;
+    border: 1px solid lightgrey;
+    
+  }
+
+  .tr2 .td07 span input:focus{
+    outline: none;
+  }
+
+.tr2 .td011 .fa-solid{
+    font-size: 10px;
+}
+
+.tr2 .td08 i, .td09 i, .td012 i{
+    background-color: #167F92;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+
+/* last row table */
+
+#ltd1, #ltd12{
+    border-radius: 0%;
+}
+
+#ltd1{
+    border-bottom-left-radius: 10px;
+}
+
+#ltd12{
+    border-bottom-right-radius: 10px;
+}
+
+
+/* Button */
+
+button{
+    border-radius: 2px;
+    border: transparent;
+    box-shadow: 0 0 10px grey;
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    color: lightgrey;
+}
+
+div.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
