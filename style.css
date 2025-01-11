@@ -282,7 +282,7 @@ td{
 /* Button */
 
 button{
-    border-radius: 2px;
+    border-radius: 5px;
     border: transparent;
     box-shadow: 0 0 10px grey;
     width: 100px;
